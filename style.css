@@ -1,0 +1,40 @@
+.color-azul{
+    background-color:#0d35a3;
+}
+.texto-white-barra{
+    color: #fff;
+}
+.btn-red{
+    background-color: #f50606;
+    color: #fff;
+}
+.btn-red:hover{
+    background-color: #0d35a3;
+    color: #fff;
+    border: 1px solid #f50606; 
+    /* propiedad border esta compuesto por elementos: ancho de linea, tipo de linea, color  */
+}
+
+#logo-navbar{
+    max-width: 40%;
+}
+.font-updockStatic{
+    font-family: "Updock", cursive;
+    font-weight: 700;
+    font-size: 70px;
+    /* propiedad css que permite establecer fuentes para un elemento html dentro de mi sitio web */
+    /* los pixeles no son muy buenos para usar con diseño responsivo, porque es una fuente fija */
+}
+#img-carrousel{
+    height: 500px;
+}
+#linke{
+    color: #0d35a3;
+    font-size: 20px;
+}
+
+#linke :hover{
+    color: #fc042d;
+    font-size: 20px;
+}
+
